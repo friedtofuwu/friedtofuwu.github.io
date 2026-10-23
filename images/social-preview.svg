@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#17243b" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="630" fill="#090f1d"/><rect width="1200" height="630" fill="url(#grid)"/>
+<path d="M70 115h1060M70 550h1060" stroke="#223049"/>
+<text x="70" y="78" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#86a8ff">[ZL]</text><text x="1130" y="78" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#a7b5ce">SOFTWARE ENGINEER</text>
+<text x="70" y="275" font-family="Arial,sans-serif" font-size="108" font-weight="700" letter-spacing="-6" fill="#edf2fc">Zekun Li<tspan fill="#86a8ff">_</tspan></text>
+<text x="74" y="350" font-family="Arial,sans-serif" font-size="33" fill="#edf2fc">Full-stack development.</text><text x="74" y="400" font-family="Arial,sans-serif" font-size="33" fill="#a7b5ce">A systems mindset.</text>
+<rect x="76" y="446" width="465" height="39" rx="5" fill="#101a2d" stroke="#31486f"/><circle cx="96" cy="466" r="4" fill="#86a8ff"/><text x="112" y="472" font-family="Arial,sans-serif" font-size="16" fill="#86a8ff">SWE / SDE opportunities · Available January 2027</text>
+<path d="M860 220h-30v205h30m180-205h30v205h-30" fill="none" stroke="#5079cf" stroke-width="4"/><text x="876" y="360" font-family="Arial,sans-serif" font-size="90" font-weight="700" letter-spacing="-7" fill="#edf2fc">ZL</text><path d="M870 440h160" stroke="#4376ef" stroke-width="3"/>
+<text x="70" y="592" font-family="Arial,sans-serif" font-size="18" fill="#a7b5ce">friedtofuwu.github.io</text><text x="1130" y="592" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#86a8ff">React / TypeScript / Node.js</text>
+</svg>

@@ -1,124 +1,68 @@
 <!DOCTYPE html>
-<!-- This page is adapted from w3schools "How to make a link tree website https://www.w3schools.com/howto/howto_website_create_linktree.asp" -->
-<html lang="en">
-
+<html lang="en" data-theme="dark" data-title-en="Zekun Li — Software Engineer" data-title-zh="李泽坤 — 软件工程师">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Add your name below -->
-  <title>Zekun Li</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/preferences.js"></script>
+  <title>Zekun Li — Software Engineer</title>
+  <meta name="description" content="Zekun Li, software engineer and Virginia Tech M.Eng. student. React, TypeScript, Node.js. Open to SWE / SDE roles starting January 2027." data-content-en="Zekun Li, software engineer and Virginia Tech M.Eng. student. React, TypeScript, Node.js. Open to SWE / SDE roles starting January 2027." data-content-zh="李泽坤，软件工程师、弗吉尼亚理工大学工程硕士在读。专注 React、TypeScript 与 Node.js，寻找 2027 年 1 月入职的 SWE / SDE 岗位。">
+  <meta name="theme-color" content="#090f1d">
+  <link rel="canonical" href="https://friedtofuwu.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Zekun Li — Software Engineer" data-content-en="Zekun Li — Software Engineer" data-content-zh="李泽坤 — 软件工程师">
+  <meta property="og:description" content="Zekun Li, software engineer and Virginia Tech M.Eng. student. React, TypeScript, Node.js. Open to SWE / SDE roles starting January 2027." data-content-en="Zekun Li, software engineer and Virginia Tech M.Eng. student. React, TypeScript, Node.js. Open to SWE / SDE roles starting January 2027." data-content-zh="李泽坤，软件工程师、弗吉尼亚理工大学工程硕士在读。专注 React、TypeScript 与 Node.js，寻找 2027 年 1 月入职的 SWE / SDE 岗位。">
+  <meta property="og:url" content="https://friedtofuwu.github.io/">
+  <meta property="og:image" content="https://friedtofuwu.github.io/images/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" type="image/svg+xml" href="favicon/mark.svg">
+  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700;750;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
 </head>
-
-<body class="main-text-color">
-  <!-- Content container. Everything except footer goes here -->
-  <div class="container">
-    <!-- Image and name container. Put your replacement photo—which you should crop to be square—in the images folder, then change the source attribute to images/yourportraitfilename.jpg. This path says, "Look in the images folder for yourportraitfilename.jpg." Be sure to change the alt text, too. -->
-    <div class="image-container">
-      <img src="images/dc.jpg">
-    </div>
-    <div class="intro">
-      I'm <span class="name"><strong>Zekun Li</strong></span>, a Computer Science student and a guitar player 
-    </div>
-    <div class="section-header">
-      <h1>My work</h1>
-    </div>
-    <!-- Replace the # inside of the href="#" with your links. -->
-    <div class="links-container">
-      <div class="button toggle"><i class="fa-brands fa-medium"></i> Blog post</div>
-      <div class="slidedown">
-        <div class="description">
-          <h2>When Creativity Meets Code: The Future of Art in the AI Era</h2>
-          <p>The core of the problem lies in the training of these AI models, 
-            which often utilize existing artworks, music, and performances 
-            without explicit consent from the creators, thereby violating 
-            their copyright rights.</p>
-          <a href="https://medium.com/@zekunli_98450/when-creativity-meets-code-the-future-of-art-in-the-ai-era-bf0a7ffdd0d5" class="external-link" target="_blank">Read</a>
-        </div>
-      </div>
-
-      <div class="button toggle"><i class="fa-brands fa-youtube"></i> Video</div>
-      <div class="slidedown">
-        <div class="description">
-          <h2>Strumming Through Time: My Guitar Journey from Beginner to Builder</h2>
-          <p>From my first strum in high school to living with a 
-            remarkably talented roommate in college, and finally to designing 
-            and building my own custom guitar with my engineering team. 
-          </p>
-          <a href="https://youtu.be/E3u5QhQ8yj0" class="external-link" target="_blank">Watch</a>
-        </div>
-        <style>
-          .embed-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            max-width: 100%;
-          }
-        
-          .embed-container iframe,
-          .embed-container object,
-          .embed-container embed {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          }
-        </style>
-        <div class="embed-container"><iframe src="https://www.youtube.com/embed/E3u5QhQ8yj0?si=tUSidOLgs3MVubHQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="button toggle"><i class="fa-brands fa-soundcloud"></i> Podcast</div>
-      <div class="slidedown">
-        <div class="description">
-          <h2>Podcast of Crimes Shows</h2>
-          <p>This podcast episode unravels the complex tapestry of our
-            collective fascination with crime stories, diving deep into the
-            allure of mystery, the thrill of the chase, and the cerebral
-            dance of piecing together clues from the shadows of human
-            behavior.</p>
-          <a href="https://soundcloud.com/zekun-li-807770959/podcast-of-crimes-shows-by-group-koalas?si=19d6451134fb4f9da0e03d009f1d7647&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" class="external-link" target="_blank">Listen</a>
-        </div>
-        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1790371720&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/zekun-li-807770959" title="Zekun Li" target="_blank" style="color: #cccccc; text-decoration: none;">Zekun Li</a> · <a href="https://soundcloud.com/zekun-li-807770959/podcast-of-crimes-shows-by-group-koalas" title="Podcast of Crimes Shows by Group Koalas" target="_blank" style="color: #cccccc; text-decoration: none;">Podcast of Crimes Shows by Group Koalas</a></div>
-      </div>
-    </div>
-
-    <!-- Replace # with PDF from Google Docs, or replace the entire section with whatever you want. Or delete it! Or add another section below it!-->
-    <div class="section-header">
-      <h1>About me</h1>
-    </div>
-
-    <div class="links-container">
-      <a href="https://www.linkedin.com/in/zekunli0803/" class="button" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-    </div>
-
-    <div class="links-container">
-      <a href="https://docs.google.com/document/d/1NyIPzTP0iVVEF5KsNbhf_6n22ICDuW8JB3ajQ-rszz8/edit?usp=sharing" class="button button-background-color" target="_blank"><i class="fa-solid fa-file"></i> Resume</a>
-    </div>
+<body class="home-page">
+  <a class="skip-link" data-i18n-en="Skip to content" data-i18n-zh="跳转到主要内容" href="#main">Skip to content</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+<symbol id="external" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+<symbol id="download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></symbol>
+<symbol id="github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.6m12 5v-3.9c0-1.1.1-1.6-.5-2.2 3-.3 6.1-1.5 6.1-6.6a5 5 0 0 0-1.3-3.5 4.8 4.8 0 0 0-.1-3.5s-1.1-.3-3.6 1.3a12.5 12.5 0 0 0-6.6 0C6.5 1.4 5.4 1.7 5.4 1.7a4.8 4.8 0 0 0-.1 3.5A5 5 0 0 0 4 8.7c0 5.1 3.1 6.3 6.1 6.6-.5.5-.6 1.1-.6 2.2v3.9"/></symbol>
+<symbol id="linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7m0-10v.1M11 17v-7m0 3a3 3 0 0 1 6 0v4"/></symbol>
+<symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+<symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></symbol>
+<symbol id="moon" viewBox="0 0 24 24"><path d="M21 13a9 9 0 0 1-10-10A9 9 0 1 0 21 13Z"/></symbol>
+<symbol id="language" viewBox="0 0 24 24"><path d="M3 5h12M9 3v2m3 0c-1 6-4 9-9 11m2-8c1 3 4 6 7 8m1 4 4-10 4 10m-6.5-3h5"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="code" viewBox="0 0 24 24"><path d="m7 6-6 6 6 6m10-12 6 6-6 6M14 3l-4 18"/></symbol>
+<symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+<symbol id="server" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.1M7 17.5h.1M11 6.5h6M11 17.5h6"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="m12 2 9 4v6c0 5-9 10-9 10S3 17 3 12V6l9-4Z"/><path d="m8 12 3 3 5-6"/></symbol>
+<symbol id="calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6m10-6v6M3 11h18M7 15h3m4 0h3"/></symbol>
+</svg>
+  <header class="site-header"><div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Zekun Li, home" data-aria-en="Zekun Li, home" data-aria-zh="李泽坤，首页"><span class="brand-mark" aria-hidden="true"><span>[</span>ZL<span>]</span></span><span class="brand-name">Zekun Li<span class="brand-dot">.</span></span></a>
+      <nav id="primary-nav" aria-label="Primary navigation" data-aria-en="Primary navigation" data-aria-zh="主导航"><a href="index.html" aria-current="page"><span data-i18n-en="Home" data-i18n-zh="首页">Home</span></a><a href="projects.html"><span data-i18n-en="Projects" data-i18n-zh="项目">Projects</span></a><a href="experience.html"><span data-i18n-en="Experience" data-i18n-zh="经历">Experience</span></a><a href="about.html"><span data-i18n-en="About" data-i18n-zh="关于">About</span></a></nav>
+      <div class="header-controls"><button class="icon-button language-toggle" type="button" aria-label="切换为简体中文" title="切换为简体中文"><svg class="icon " aria-hidden="true" focusable="false"><use href="#language"/></svg><span class="language-label" aria-hidden="true">中</span></button><span class="control-divider" aria-hidden="true"></span><button class="icon-button theme-toggle" type="button" aria-label="Switch to light mode" title="Switch to light mode"><svg class="icon theme-icon-sun" aria-hidden="true" focusable="false"><use href="#sun"/></svg><svg class="icon theme-icon-moon" aria-hidden="true" focusable="false"><use href="#moon"/></svg></button><button class="icon-button menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button></div>
+    </div></header>
+  <main id="main">
+<div class="home-grid-bg" aria-hidden="true"></div>
+<section class="home-hero container" aria-labelledby="home-heading">
+  <div class="home-copy">
+    <div class="availability"><span class="status-dot" aria-hidden="true"></span><span data-i18n-en="OPEN TO SWE / SDE OPPORTUNITIES" data-i18n-zh="正在寻找 SWE / SDE 岗位">OPEN TO SWE / SDE OPPORTUNITIES</span></div>
+    <p class="eyebrow home-eyebrow"><span aria-hidden="true">&gt;_</span> <span data-i18n-en="SOFTWARE ENGINEER" data-i18n-zh="软件工程师">SOFTWARE ENGINEER</span></p>
+    <h1 id="home-heading">Zekun Li<span class="name-cursor" aria-hidden="true">_</span></h1>
+    <h2 class="home-role"><span data-i18n-en="Full-stack development." data-i18n-zh="全栈开发。">Full-stack development.</span><br><span class="role-secondary" data-i18n-en="A systems mindset." data-i18n-zh="系统思维。">A systems mindset.</span></h2>
+    <p class="home-description" data-i18n-en="I build web applications with React, TypeScript, and Node.js. My experience in security and infrastructure helps me see beyond the interface." data-i18n-zh="我使用 React、TypeScript 和 Node.js 开发 Web 应用。安全与基础设施方面的经历，让我能从界面延伸到系统整体来思考问题。">I build web applications with React, TypeScript, and Node.js. My experience in security and infrastructure helps me see beyond the interface.</p>
+    <div class="home-actions"><a class="button button-primary" href="Zekun-Li-Resume.pdf" download><svg class="icon " aria-hidden="true" focusable="false"><use href="#download"/></svg><span data-i18n-en="Download CV" data-i18n-zh="下载简历">Download CV</span></a><a class="button button-secondary" href="projects.html"><span data-i18n-en="Explore projects" data-i18n-zh="查看项目">Explore projects</span><svg class="icon " aria-hidden="true" focusable="false"><use href="#arrow"/></svg></a></div>
+    <div class="socials"><span class="socials-label"><span data-i18n-en="FIND ME ON" data-i18n-zh="社交链接">FIND ME ON</span></span><a class="social-link" href="https://github.com/friedtofuwu" target="_blank" rel="noopener" aria-label="GitHub — friedtofuwu" title="GitHub"><svg class="icon " aria-hidden="true" focusable="false"><use href="#github"/></svg></a><a class="social-link" href="https://www.linkedin.com/in/zekunli0803/" target="_blank" rel="noopener" aria-label="LinkedIn — Zekun Li" title="LinkedIn"><svg class="icon " aria-hidden="true" focusable="false"><use href="#linkedin"/></svg></a><a class="social-link" href="mailto:zekunli9334@gmail.com" aria-label="Email Zekun Li" data-aria-en="Email Zekun Li" data-aria-zh="给李泽坤发邮件" title="Email" data-title-en="Email" data-title-zh="电子邮箱"><svg class="icon " aria-hidden="true" focusable="false"><use href="#mail"/></svg></a></div>
   </div>
-  <div class="footer">
-    <p>© Zekun Li, 2024. Based on a design by <a
-        href="https://www.w3schools.com/howto/howto_website_create_linktree.asp" target="_blank">w3schools</a>.
-    </p>
-  </div>
-  <script type="text/javascript" src="js/slider.js"></script>
+  <div class="profile-visual"><span class="photo-corner corner-tl" aria-hidden="true"></span><span class="photo-corner corner-tr" aria-hidden="true"></span><span class="photo-corner corner-bl" aria-hidden="true"></span><span class="photo-corner corner-br" aria-hidden="true"></span><div class="profile-photo-wrap"><img class="profile-photo" src="images/dc.jpg" alt="Zekun Li in Washington, D.C." data-alt-en="Zekun Li in Washington, D.C." data-alt-zh="李泽坤在华盛顿特区的个人照片" width="1342" height="1342" fetchpriority="high"><div class="photo-shade" aria-hidden="true"></div><div class="photo-caption"><span class="caption-marker" aria-hidden="true"></span><div><strong><span data-i18n-en="Virginia Tech" data-i18n-zh="弗吉尼亚理工大学">Virginia Tech</span></strong><span><span data-i18n-en="M.Eng. · Computer Science" data-i18n-zh="工程硕士 · 计算机科学">M.Eng. · Computer Science</span></span></div><span class="photo-caption-code" aria-hidden="true">VT / 2026</span></div></div><div class="photo-coordinate" aria-hidden="true"><span data-i18n-en="01 / ABOUT THE DEVELOPER" data-i18n-zh="01 / 关于开发者">01 / ABOUT THE DEVELOPER</span><span>38.9° N · 77.0° W</span></div></div>
+</section>
+<div class="home-facts container"><div><svg class="icon " aria-hidden="true" focusable="false"><use href="#pin"/></svg><span><small><span data-i18n-en="BASED IN" data-i18n-zh="所在地">BASED IN</span></small><strong><span data-i18n-en="Chantilly, Virginia" data-i18n-zh="弗吉尼亚州尚蒂伊">Chantilly, Virginia</span></strong></span></div><div><svg class="icon " aria-hidden="true" focusable="false"><use href="#calendar"/></svg><span><small><span data-i18n-en="AVAILABLE FROM" data-i18n-zh="可入职时间">AVAILABLE FROM</span></small><strong><span data-i18n-en="January 2027" data-i18n-zh="2027 年 1 月">January 2027</span></strong></span></div><div><svg class="icon " aria-hidden="true" focusable="false"><use href="#check"/></svg><span><small><span data-i18n-en="WORK AUTHORIZATION" data-i18n-zh="工作许可">WORK AUTHORIZATION</span></small><strong><span data-i18n-en="U.S. · No sponsorship needed" data-i18n-zh="美国 · 无需雇主担保">U.S. · No sponsorship needed</span></strong></span></div></div>
+</main>
+  <footer class="site-footer"><div class="container footer-inner"><p><span class="footer-brackets" aria-hidden="true">&lt;/&gt;</span> © <span id="year">2026</span> Zekun Li</p><p><span data-i18n-en="Engineered with care. Always learning." data-i18n-zh="用心构建，持续学习。">Engineered with care. Always learning.</span></p><a href="mailto:zekunli9334@gmail.com"><span data-i18n-en="Let’s connect" data-i18n-zh="联系我">Let’s connect</span> <svg class="icon " aria-hidden="true" focusable="false"><use href="#external"/></svg></a></div></footer>
 </body>
-
 </html>
